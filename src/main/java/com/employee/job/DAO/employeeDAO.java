@@ -33,13 +33,13 @@ public class employeeDAO
 	@Autowired
 	DataSource dataSource;
 
-	private final String NewEmployee = "NewEmployee";
-	private final String ExistEmployee = "existEmployee";
-	private final String ExistGenderJob = "existGenderJob";
-	private final String NewWorkedHour = "NewWorkedHour";
-	private final String GetEmployeeByJobId = "GetEmployeeByJobId";
-	private final String GetWorkedHours = "GetWorkedHours";
-	private final String GetPaymentHours = "GetPaymentHours";
+	private final String NewEmployee = "empleados.NewEmployee";
+	private final String ExistEmployee = "empleados.existEmployee";
+	private final String ExistGenderJob = "empleados.existGenderJob";
+	private final String NewWorkedHour = "empleados.NewWorkedHour";
+	private final String GetEmployeeByJobId = "empleados.GetEmployeeByJobId";
+	private final String GetWorkedHours = "empleados.GetWorkedHours";
+	private final String GetPaymentHours = "empleados.GetPaymentHours";
 	
 	
 	private JdbcTemplate jdbcTemplate;
